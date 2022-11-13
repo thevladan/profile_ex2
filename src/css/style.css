@@ -172,7 +172,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
 }
 
 /**
@@ -551,7 +551,7 @@ a {
 }
 @media (max-width: 576px) {
   .product {
-    height: 67rem;
+    height: 64rem;
     background-image: none;
   }
 }
