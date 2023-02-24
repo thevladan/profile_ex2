@@ -376,7 +376,7 @@ h2 {
   font-weight: bold;
   line-height: 1.2;
 }
-@media (max-width: 1024px) {
+@media (max-width: 2200px) {
   h2 {
     font-size: 3rem;
   }
@@ -654,6 +654,11 @@ a {
   top: -45%;
   right: 19.5rem;
 }
+@media (max-width: 2200px) {
+  .product__left-poc::before {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .product__left-poc::before {
     display: block;
@@ -686,6 +691,11 @@ a {
   position: absolute;
   top: -45%;
   right: 19.5rem;
+}
+@media (max-width: 2200px) {
+  .product__left-stakan::before {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .product__left-stakan::before {
@@ -722,6 +732,11 @@ a {
   left: 26rem;
   top: -45%;
 }
+@media (max-width: 2200px) {
+  .product__right-grain::after {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .product__right-grain::after {
     display: block;
@@ -754,6 +769,11 @@ a {
   left: 26rem;
   top: -45%;
 }
+@media (max-width: 2200px) {
+  .product__right-leaf::after {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .product__right-leaf::after {
     display: block;
@@ -785,6 +805,11 @@ a {
   position: absolute;
   left: 26rem;
   top: -45%;
+}
+@media (max-width: 2200px) {
+  .product__right-cws::after {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .product__right-cws::after {
@@ -1020,7 +1045,7 @@ a {
   position: absolute;
   right: 42rem;
 }
-@media (max-width: 1024px) {
+@media (max-width: 2200px) {
   .exmenu__right-m6::before {
     right: 42rem;
   }
@@ -1048,7 +1073,7 @@ a {
   position: absolute;
   right: 42rem;
 }
-@media (max-width: 1024px) {
+@media (max-width: 2200px) {
   .exmenu__right-m7::before {
     right: 42rem;
   }
@@ -1076,7 +1101,7 @@ a {
   position: absolute;
   right: 42rem;
 }
-@media (max-width: 1024px) {
+@media (max-width: 2200px) {
   .exmenu__right-m8::before {
     right: 42rem;
   }
@@ -1104,7 +1129,7 @@ a {
   position: absolute;
   right: 42rem;
 }
-@media (max-width: 1024px) {
+@media (max-width: 2200px) {
   .exmenu__right-m9::before {
     right: 42rem;
   }
@@ -1129,7 +1154,7 @@ a {
   position: absolute;
   right: 42rem;
 }
-@media (max-width: 1024px) {
+@media (max-width: 2200px) {
   .exmenu__right-m10::before {
     right: 42rem;
   }
